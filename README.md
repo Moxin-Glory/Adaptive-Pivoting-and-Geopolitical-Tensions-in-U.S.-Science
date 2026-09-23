@@ -4,12 +4,6 @@
 
 This repository contains the replication code for the main descriptive statistics, figures, and regression tables reported in the paper. The Python notebook reproduces Table 1, Figure 2, and Figure 3. The Stata do-file reproduces Table 2 and Table 3 and also generates the CSV files used by the Python notebook to draw Figure 2 and Figure 3.
 
-## Data Availability
-
-Because GitHub imposes file size limits, the dataset is not stored directly in this repository. The full replication dataset is available through Harvard Dataverse:
-
-[https://doi.org/10.7910/DVN/RVB41B](https://doi.org/10.7910/DVN/RVB41B)
-
 ## Dataset Descriptions
 
 The following files are used in the replication workflow.
