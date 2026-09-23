@@ -45,7 +45,7 @@ Run this Stata script before running the Python notebook if you want to regenera
 
 ## Recommended Workflow
 
-1. Download `PNAS_revision_regression_upload_data.csv` .
+1. Download `PNAS_revision_regression_upload_data.csv`.
 2. Place it in the same folder as the code files.
 3. Run `replicate_tables_2_and_3.do` in Stata.
 4. Run `replicate_table1_figure2_figure3.ipynb` in Jupyter.
