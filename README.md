@@ -8,7 +8,7 @@ This repository contains the replication code for the main descriptive statistic
 
 The following files are used in the replication workflow.
 
-### PNAS_revision_regression_upload_data.csv
+### revision_regression_upload_data.csv
 
 The anonymized core dataset used for the main regression analyses, descriptive statistics, and figure construction. This file includes scientist-year observations, anonymized scientist identifiers, treatment status, funding outcomes, pivot-size measures, control variables, and subgroup indicators.
 
@@ -30,7 +30,7 @@ Python notebook used to reproduce:
 - Figure 2: event-study estimates
 - Figure 3: heterogeneity analyses
 
-The notebook reads `PNAS_revision_regression_upload_data.csv`, `Fig3_event_study_data.csv`, and `Fig4_did_topic_data.csv`, and writes outputs to the `results/` folder.
+The notebook reads `revision_regression_upload_data.csv`, `Fig3_event_study_data.csv`, and `Fig4_did_topic_data.csv`, and writes outputs to the `results/` folder.
 
 ### replicate_tables_2_and_3.do
 
@@ -45,7 +45,7 @@ Run this Stata script before running the Python notebook if you want to regenera
 
 ## Recommended Workflow
 
-1. Download `PNAS_revision_regression_upload_data.csv`.
+1. Download `revision_regression_upload_data.csv`.
 2. Place it in the same folder as the code files.
 3. Run `replicate_tables_2_and_3.do` in Stata.
 4. Run `replicate_table1_figure2_figure3.ipynb` in Jupyter.
